@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - has and will print program name
+ * main -  has and will print program name
+ * @argc: argument count
  * @argv: argument vector
- * @argc: argument counter
  * Return: 0
  */
 
