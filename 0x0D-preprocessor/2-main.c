@@ -1,13 +1,13 @@
-#include <stdlib.h>
 #include <stdio.h>
 
-/** main - is the entery point of the code
+/**
+ *  main -  the entery point of the code
  * declaration: print the name of the source file
  *
  * Return: 0 (success).
  */
-int main() {
+int main(void)
+{
 	printf("%s\n", __FILE__);
-
-	return 0;
+	return (0);
 }
