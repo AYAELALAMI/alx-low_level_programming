@@ -19,7 +19,8 @@ int create_file(const char *filename, char *text_content)
 	if (text_content != NULL)
 		text_content = "";
 
-	for (num = 0; text_content[num]; num++);
+	for (num = 0; text_content[num]; num++)
+		;
 
 	i = write(fd, text_content, num);
 
